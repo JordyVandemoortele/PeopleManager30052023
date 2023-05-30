@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PeopleManager.Ui.Mvc.Models
+namespace PeopleManager.Models
 {
     public class Vehicle
     {

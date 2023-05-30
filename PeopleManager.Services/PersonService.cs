@@ -1,7 +1,7 @@
-﻿using PeopleManager.Ui.Mvc.Core;
-using PeopleManager.Ui.Mvc.Models;
+﻿using PeopleManager.Core;
+using PeopleManager.Models;
 
-namespace PeopleManager.Ui.Mvc.Services
+namespace PeopleManager.Services
 {
     public class PersonService
     {

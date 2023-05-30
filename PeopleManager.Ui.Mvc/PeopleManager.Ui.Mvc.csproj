@@ -11,4 +11,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleManager.Core\PeopleManager.Core.csproj" />
+    <ProjectReference Include="..\PeopleManager.Model\PeopleManager.Model.csproj" />
+    <ProjectReference Include="..\PeopleManager.Services\PeopleManager.Services.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using PeopleManager.Ui.Mvc.Core;
-using PeopleManager.Ui.Mvc.Services;
+using PeopleManager.Core;
+using PeopleManager.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +13,7 @@ builder.Services.AddDbContext<PeopleManagerDbContext>(options =>
 });
 
 builder.Services.AddScoped<PersonService>();
+builder.Services.AddScoped<VehicleService>();
 
 var app = builder.Build();
 

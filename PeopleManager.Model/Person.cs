@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices.JavaScript;
-using PeopleManager.Ui.Mvc.Core;
 
-namespace PeopleManager.Ui.Mvc.Models
+namespace PeopleManager.Models
 {
     public class Person
     {

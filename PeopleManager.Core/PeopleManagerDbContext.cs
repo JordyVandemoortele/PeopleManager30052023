@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PeopleManager.Ui.Mvc.Models;
+using PeopleManager.Models;
 
-namespace PeopleManager.Ui.Mvc.Core
+namespace PeopleManager.Core
 {
     public class PeopleManagerDbContext : DbContext
     {
